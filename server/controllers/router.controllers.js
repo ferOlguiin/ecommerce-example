@@ -106,9 +106,9 @@ export const ordenDeCompra = async (req, res) => {
     let preference = {
         items: arr,
         back_urls: {
-            "success": "http://localhost:3000/backurlmercadopago",
-            "failure": "http://localhost:3000/backurlmercadopago",
-            "pending": "http://localhost:3000/backurlmercadopago"
+            "success": "https://ecommerce-example-app.herokuapp.com/backurlmercadopago",
+            "failure": "https://ecommerce-example-app.herokuapp.com/backurlmercadopago",
+            "pending": "https://ecommerce-example-app.herokuapp.com/backurlmercadopago"
         },
         statement_descriptor: "E-Commerce Example",
         };
