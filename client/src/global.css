@@ -1,0 +1,65 @@
+.btn-orange{
+    background-color: rgb(255, 145, 0);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 6px 12px;
+}
+.btn-orange-25{
+    background-color: rgba(255, 145, 0, 0.615);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 6px 12px;
+}
+.btn-orange:hover{
+    background-color: rgb(208, 141, 16);
+    color: white;
+}
+.btn-violet{
+    background-color: rgb(128, 8, 168);
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6px 12px;
+    border-radius: 0.25rem;
+}
+.btn-violet:hover{
+    background-color: rgba(84, 1, 112, 0.774);
+    color: rgb(255, 255, 255);
+}
+.border-violet{
+    border: 1px solid rgb(109, 6, 143);
+}
+
+.zoom:hover{
+    transform: scale(1.06);
+    transition-duration: 0.25s;
+}
+
+nav {
+    background-color: orange;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.text-green{
+    color: #45b649
+}
+.text-orange{
+    color: rgb(255, 145, 0);
+}
+  
+.imageRender {
+      width: auto;
+      height: auto;
+      max-width: 800px;
+      max-height: 600px;
+}
+
+.fs-10{
+    font-size: 10px;
+}
+
+.textoarea {
+    resize: none;
+}
