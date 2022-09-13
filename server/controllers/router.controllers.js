@@ -1,4 +1,4 @@
-import producto from "../models/producto.js";
+import producto from "../models/Producto.js";
 import { deleteImage, uploadImage } from "../utils/cloudinary.js";
 import fs from 'fs-extra';
 import mercadopago from "mercadopago";
