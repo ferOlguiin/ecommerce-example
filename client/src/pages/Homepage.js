@@ -41,15 +41,15 @@ export const Homepage = () => {
       <div className='container my-4 bg-opacity-50 d-flex flex-column'>
         <div className='d-flex justify-content-center align-items-center flex-sm-row flex-column'>
           <h5 className='display-2 me-4 my-0 p-0'><FaTruck className='text-secondary'/></h5>
-          <p className='mb-0 mt-2 p-0 fs-4 text-break'>Benefecios Benefecios Benefecios Benefecios Benefecios Benefecios</p>
+          <p className='mb-0 mt-2 p-0 fs-4 text-break'>Envios gratis a todo el país</p>
         </div>
         <div className='d-flex justify-content-center align-items-center flex-sm-row-reverse flex-column'>
           <h5 className='display-2 ms-4 my-0 p-0'><BsTagFill className='text-green'/></h5>
-          <p className='mb-0 mt-2 p-0 fs-4 text-break'>Benefecios Benefecios Benefecios Benefecios Benefecios Benefecios</p>
+          <p className='mb-0 mt-2 p-0 fs-4 text-break'>¡Las mejores ofertas las encontras con nosotros!</p>
         </div>
         <div className='d-flex justify-content-center align-items-center flex-sm-row flex-column'>
           <h5 className='display-2 me-4 my-0 p-0'><BsBuilding className='text-danger'/></h5>
-          <p className='mb-0 mt-2 p-0 fs-4 text-break'>Benefecios Benefecios Benefecios Benefecios Benefecios Benefecios</p>
+          <p className='mb-0 mt-2 p-0 fs-4 text-break'>¿Necesitas comprar al por mayor? ¡Nosotros te ayudamos!</p>
         </div>
       </div>
 
@@ -121,10 +121,11 @@ export const Homepage = () => {
       <h2 className="mt-2 p-2 fs-3 btn-orange-25">¡Lo que necesitas saber!</h2>
 
       <div className='d-flex justify-content-sm-center justify-content-start align-items-center py-5 px-2 flex-wrap'>
-            <p className='fs-5 text-center text-break' id="info">Esta web tiene las funciones básicas con las que puedes obtener, crear, editar borrar y comprar productos, los cuales contienen varios datos entre ellos una imagen la cual se aloja en cloudinary. Hay diferentes secciones las cuales cada una contienen sus respectivas funciones y que haceres. El panel de administrador contiene las funciones básicas para poder crear, editar, borrar, etc.</p>
-            <p className='fs-5 text-center text-break'>Un ejemplo para probar es, entrar en la seccion de productos, elegir los items para simular una compra, dirigirse al carrito, modificar las unidades que se desearian comprar en cada productos y clickear el boton de compra. Este una vez ejecutado redirecciona a la interfaz creada por mercado pago para llevar a cabo todo el proceso de compra y registro de datos. Una vez que la compra se ejecuto esa interfaz arroja un resultado, el cual aparte de ver en la interfaz de mercado pago, también se puede ver en la web una vez ya redireccionado. Se pueden visualizar los datos del "estado del pago" y el "id de la compra/pago", estos datos podrian ser de utilidad tanto para el usuario como para el vendedor.
-            Luego estos datos pueden corroborarse en el admin panel en el boton de "buscar informacion de pago", una vez colocado el numero y clickeado el boton de busqueda se obtendrá la información correspondiente a ese id de pago.</p>
-            <p className='fs-5 text-center text-break'>Espero sea de utilidad para aquel que ingrese al sitio y en caso de necesitar información respecto a código puede encontrarlo aquí <a href='/'>linkgithub</a></p>
+            <p className='fs-5 text-center text-break' id="info">Esta web tiene las funciones básicas con las que puedes obtener, crear, editar borrar y comprar productos, los cuales contienen varios datos entre ellos una imagen la cual se aloja en cloudinary. Hay diferentes secciones las cuales cada una contienen sus respectivas funciones y que haceres. El panel de administrador (al cual solo se puede acceder una vez logeado, TODOS los usuarios logeados son admins) contiene las funciones básicas para poder crear, editar, borrar, etc.</p>
+            <p className='fs-5 text-center text-break'>Primero que nada y antes de proseguir es importante que sepas que la compra de items sólo la podrás hacer en caso de que tengas una cuenta de prueba y una tarjeta de prueba, ambas proporcionada por mercado pago, ya que el "vendedor" de los items de esta web es un usuario de prueba y mercado pago no permite bajo ningún concepto que un usuario real pueda comprar a un usuario de prueba, como en este caso.</p>
+            <p className='fs-5 text-center text-break'>Un ejemplo para probar es, entrar en la sección de productos, elegir los items para simular una compra, dirigirse al carrito, modificar las unidades que se desearian comprar en cada productos y clickear el botón de compra. Este una vez ejecutado redirecciona a la interfaz creada por mercado pago para llevar a cabo todo el proceso de compra y registro de datos. Una vez que la compra se ejecutó esa interfaz arroja un resultado, el cual aparte de ver en la interfaz de mercado pago, también se puede ver en la web una vez ya redireccionado. Se pueden visualizar los datos del "estado del pago" y el "id de la compra/pago", estos datos podrian ser de utilidad tanto para el usuario como para el vendedor.
+            Luego estos datos pueden corroborarse en el admin panel en el botón de "buscar información de pago", una vez colocado el número y clickeado el botón de búsqueda se obtendrá la información correspondiente a ese identificador de pago.</p>
+            <p className='fs-5 text-center text-break'>Espero sea de utilidad para aquel que ingrese al sitio y en caso de necesitar información respecto al código puede encontrarlo aquí <a href='https://github.com/ferOlguiin/ecommerce-example' target="_blank" rel="noreferrer" >LinkGithub</a></p>
             <p className='fs-5 text-center text-break'>En caso de que detectes algún error, me sería de muchisima utilidad el que me lo puedas comunicar por lo que aquí abajo te dejo mis contactos.</p>
             <p className='fs-5 text-center text-break text-decoration-underline'>Por último, este e-commerce que desarrollé, esta hecho pura y exclusivamente con fines prácticos, todo lo que contiene la web es ficticio, por ende ningun item ni transacción es válida.</p>
             <a className='btn btn-dark btn-sm text-decoration-none me-1' href='https://github.com/ferOlguiin?tab=repositories' rel="noreferrer" target="_blank">GitHub <VscGithubInverted className='mb-1 ms-1'/></a><a className='btn btn-info ms-1 btn-sm text-decoration-none' rel="noreferrer" target="_blank" href='https://www.linkedin.com/in/fernando-olguin-5a63a9236/'>LinkedIn <FaLinkedinIn className='mb-1 ms-1'/></a>
