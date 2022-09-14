@@ -5,12 +5,12 @@ import { createProduct, deleteProduct, editProduct, feedback, getCategory, getId
 const router = Router();
 
 router.get("/", (req, res) => {
-    res.json("hola");
+    res.json("probando");
 })
 router.get("/products", getProducts);
 router.post("/create", fileUpload({
     useTempFiles : true,
-    tempFileDir : '/.uploads'
+    tempFileDir : './uploads'
 }), createProduct);
 router.put("/edit/:id", editProduct);
 router.delete("/delete/:id", deleteProduct);
