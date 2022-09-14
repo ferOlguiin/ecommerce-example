@@ -40,7 +40,7 @@ export const Navbar = () => {
                   </span>
                 </Link>
                 {isAuthenticated ? '' : <LoginButton/>}
-                {user ? <Link to="/userpanel" className="ms-2"><img alt="logo" className="rounded-circle" src={user.picture} style={{width: 35, height: 30}}/></Link> : ''}
+                {user ? <Link to="/userpanel" className="ms-2"><img alt="logo" className="rounded-circle border border-1 border-dark" src={user.picture} style={{width: 35, height: 30}}/></Link> : ''}
                 
             </div>
         </nav>

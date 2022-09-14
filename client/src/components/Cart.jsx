@@ -39,11 +39,11 @@ export const Cart = ({item}) => {
     
 
   return (
-    <div className="container">
-        <div className="row container shadow-lg rounded p-2 my-1">
+    <div className="container d-flex justify-content-center align-items-center">
+        <div className="row container shadow rounded p-2 my-2">
             <div className="col-md-8 py-2 px-3 d-flex align-items-center justify-content-start flex-sm-row flex-column">
-                <div className="rounded d-flex justify-content-center align-items-center" style={{width: 50, height: 50}}>
-                    {item.image ? <img alt="asd" src={item.image.secure_url} style={{width: "auto", height: "auto", maxHeight: 50, maxWidth: 50}} className="me-4"/> : ''}    
+                <div className="rounded d-flex justify-content-center align-items-center" style={{width: 90, height: 90}}>
+                    {item.image ? <img alt="asd" src={item.image.secure_url} style={{width: "auto", height: "auto", maxHeight: 90, maxWidth: 90}} className="me-4"/> : ''}    
                 </div>
                 <div className="d-flex flex-column justify-content-center align-items-start">
                     <h4 className="p-0 m-0">{item.title}</h4>
@@ -57,8 +57,8 @@ export const Cart = ({item}) => {
                 </div>
             </div>
             <div className="col-md-4 p-3 d-flex flex-column justify-content-center align-items-center">
-                <div className=" d-flex align-self-end justify-self-start mb-3">
-                <button className="btn btn-danger btn-sm d-flex justify-content-center align-items-center py-0 px-1" onClick={removeItem}>Eliminar<VscTrash className="ms-1 fs-6"/></button>
+                <div className=" d-flex align-self-center align-self-md-end justify-self-center justify-self-md-start mb-3">
+                    <button className="btn btn-danger btn-sm d-flex justify-content-center align-items-center py-0 px-1" onClick={removeItem}>Eliminar<VscTrash className="ms-1 fs-6"/></button>
                 </div>
                 <h5 className="text-break text-center">Total de este producto: ${item.amount * item.price}</h5>
             </div>
